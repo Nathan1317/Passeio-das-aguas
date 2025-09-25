@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Times New Roman', serif;
+    color: #217feb;
+    text-shadow: 2px 2px 4px #aaa;
+    text-align: center;
+}
+
+
+p{
+    font-family: Arial, sans-serif;
+    margin: 90px;
+    padding: 90px;
+    background-color: hsla(0, 5%, 71%, 0.7);
+    border-radius: 20px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Times New Roman', serif;
+    color: #ff0000;
+    text-shadow: 2px 2px 4px #aaa;
+    background-color: hsla(0, 5%, 71%, 0.4);
+}
+
+header {
+    background-color: #333;
+    color: rgb(255, 0, 0);
+    padding: 10px 0;
+    text-align: center; 
+}
