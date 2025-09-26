@@ -1,30 +1,80 @@
-h1{
+h1 {
     font-family: 'Times New Roman', serif;
     color: #217feb;
     text-shadow: 2px 2px 4px #aaa;
     text-align: center;
+    font-size: 2.5rem; /* relativo ao tamanho padrão */
+    margin: 1rem;
 }
 
-
-p{
+p {
     font-family: Arial, sans-serif;
-    margin: 90px;
-    padding: 90px;
+    margin: 5%;
+    padding: 5%;
     background-color: hsla(0, 5%, 71%, 0.7);
     border-radius: 20px;
     text-align: center;
+    max-width: 900px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h3{
+h3 {
     font-family: 'Times New Roman', serif;
     color: #ff0000;
     text-shadow: 2px 2px 4px #aaa;
     background-color: hsla(0, 5%, 71%, 0.4);
+    text-align: center;
+    padding: 0.5rem;
 }
 
 header {
     background-color: #333;
     color: rgb(255, 0, 0);
-    padding: 10px 0;
+    padding: 1rem 0;
     text-align: center; 
+    font-size: 1.2rem;
+}
+
+/* 🔹 Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        margin: 3%;
+        padding: 3%;
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    header {
+        font-size: 1rem;
+        padding: 0.8rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        margin: 2%;
+        padding: 2%;
+        font-size: 0.9rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    header {
+        font-size: 0.9rem;
+    }
 }
